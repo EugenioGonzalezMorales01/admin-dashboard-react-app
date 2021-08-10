@@ -1,4 +1,5 @@
-export const api = "https://dashboard-rest.herokuapp.com/api";
+const urlBase = process.env.API || "https://dashboard-rest.herokuapp.com";
+export const api = `${urlBase}/api`;
 export const generatePublicUrl = (fileName) => {
-	return `https://dashboard-rest.herokuapp.com/public/${fileName}`;
+	return `${urlBase}/public/${fileName}`;
 };
