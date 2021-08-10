@@ -22,7 +22,7 @@ export const updateProduct = (product) => {
 	form.append("description", product.description);
 	return async (dispatch) => {
 		const res = await axios.post("/product/updateProduct", form);
-		if (res.status === 201) {
+		if (res.status === 201 || res.status === 400) {
 			return true;
 		}
 	};
