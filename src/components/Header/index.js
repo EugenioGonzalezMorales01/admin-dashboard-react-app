@@ -24,11 +24,11 @@ const Header = (props) => {
 						Iniciar Sesión
 					</NavLink>
 				</li>
-				<li className="nav-item">
+				{/* <li className="nav-item">
 					<NavLink to="/signup" className="nav-link">
 						Registrarse
 					</NavLink>
-				</li>
+				</li> */}
 			</Nav>
 		);
 	};
