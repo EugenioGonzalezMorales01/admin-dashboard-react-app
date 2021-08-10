@@ -21,12 +21,12 @@ const Header = (props) => {
 				{/*<Nav.Link href="#deets">Log in</Nav.Link>*/}
 				<li className="nav-item">
 					<NavLink to="/login" className="nav-link">
-						Log In
+						Iniciar Sesión
 					</NavLink>
 				</li>
 				<li className="nav-item">
 					<NavLink to="/signup" className="nav-link">
-						Iniciar Sesión
+						Registrarse
 					</NavLink>
 				</li>
 			</Nav>
